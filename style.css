@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+/*font-family:'lobster', cursive;
+font-faily:'noto sans jp',sans-serif;
+font-family:'roboto',sans-serif;
+font-family: 'Lobster', cursive;*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.7rem;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+}
+.navbar ul li{
+	list-style: none;
+}
+.navbar ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+	font-family:'roboto',sans-serif;
+}
+.navbar ul li a:hover{
+	background: #ff2626;
+}
+.design{
+	font-family: 'Lobster', cursive;
+}
+.color-text{
+	color:#ff2626; 
+}
+.header{
+	background: url('6.jpg');
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+}
+.header div{
+	color: white;
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family:'noto sans jp',sans-serif;
+}
+.head{
+	font-size: 3rem;
+	margin: 0.4rem;
+}
+.text{
+	font-size: 1rem;
+	margin: 0.4rem;
+	margin-bottom: 1rem;
+}
+.btn{
+	background-color: #ff2626;
+	height: 2rem;
+	width: 5rem;
+	color: white;
+	border: none;
+}
+#one{
+	display: flex;
+	flex: 1;
+}
+.container{
+	margin: 10px auto;
+	width: 70rem;
+}
+.Services{
+	font-family:'roboto',sans-serif;
+	text-align: center;
+}
+.cards-p{
+	font-size: 1rem;
+	margin: 10px auto;
+}
+.cards{
+	text-align: center;
+	font-family: font-faily:'noto sans jp',sans-serif;
+	padding: 1.3rem;
+}
+.cards i{
+	background-color:  #ff2626;
+	padding: 2rem;
+	border-radius: 6rem;
+}
+#about{
+	background: url('3.jpg');
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+}
+.about-p{
+	color: white;
+	font-family:'roboto',sans-serif;
+	text-align: right;
+	padding: 1rem 6rem 0 60rem;
+	background-size: cover;
+}
+#about div{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+}
+.about-h1{
+	color: yellow;
+	text-align:right;
+	padding:1rem 6rem 0 45rem;
+	font-family:'roboto',sans-serif;
+	font-size: 2.5rem;
+}
+.about-btn{
+	float: right;
+	padding:0.7rem;
+	margin:1rem 6rem 0 0;
+	background-color:#ff2626;
+	border: none; 
+}
+#img{
+	background: url('7.png');
+	height:100vh;
+	background-size: cover;
+	height: 40rem;
+	width: 50rem;
+}
+.form{
+	text-align: right;
+	margin-left: 50rem;
+	margin-top: 10rem;
+}
+input{
+	height: 3.5rem;
+	width: 30rem;
+	border: 10px solid #ff2626;
+}
+.f-h1{
+	margin-left: 40rem;
+	font-size: 2rem;
+	color: #ff2626;
+	font-family:'roboto',sans-serif;
+	padding-top: 2rem;
+
+}
+label{
+	font-size: 1rem;
+	color: black;
+	font-family:'roboto',sans-serif;
+}
+.f-btn{
+	background-color:#ff2626;
+	padding: 0.7;
+	height: 2rem;
+	width: 5rem;
+	margin-top: 1rem;
+	border: none;
+}
+footer{
+	background-color:#ff2626;
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 1rem;
+}
